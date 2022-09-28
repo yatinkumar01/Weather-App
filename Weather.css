@@ -1,0 +1,134 @@
+    *{
+    font-family: 'Open Sans';
+    }
+    body{
+        background-color: black;
+    }
+    #weather_page{
+        width: 95%;
+        height: 560px;
+        border: 2px rgb(45, 1, 1) solid;
+        margin: auto;
+        display: flex;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: -14px;
+    }
+    #video_tag{
+        width:50%;
+        height: 440px;
+    }
+    #video{
+        width: 600px;
+        height: 440px;
+    }
+    #six_days{
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #six_days>div{
+        width: 15%;
+        height: auto;
+        border-radius: 10px;
+        border: 2px rgb(132, 60, 46) solid;
+    }
+    #six_days>div>img{
+        margin-top: -20px;
+        margin-left: -5px;
+    }
+    #six_days>div>h4{
+        margin-top: -20px;
+        margin-left: 40px;
+        color: blue;
+        font-weight: 900;
+    }
+    #map_tag{
+        width: 30%;
+        height: 500px;
+    }
+    #google_map{
+        width:100%;
+        height:200px;
+        border-radius: 50%;            
+    }
+    #gmap_canvas{
+        border-radius: 50%;
+    }
+    #temp_degree{
+        width: 20%;
+        height: 200px;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 0px;
+    }
+    #temp_degree>h1{
+         font-size: 110px;
+         font-weight: 900;
+         color: blue;
+         margin-left: -120px;
+    }
+    #temp_degree>p{
+        font-size: 60px;
+        font-weight: 900px;
+        color: blue;
+    }
+    #other_details{
+        width: 40%;
+        margin-top: 80px;
+    }
+    #temp_degree>div:first-child{
+        margin-top:-100px ;
+    }
+    #temp_degree>div:first-child>h2{
+        font-weight: 900;
+        color:rgb(128, 53, 0);
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    #other{
+        width: 60%;
+        height: 300px;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    #all_details{
+        height: 300px;
+        display: flex;
+        margin-top: 30px;
+    }
+    #other>h4{
+        margin-top:-14px;
+        color:chocolate;
+        font-weight: 900;
+    }
+    #other_details>p{
+        margin-top:-9px;
+        color:blue;
+        font-weight: 600;
+    }
+    body>div+h1{
+        color: white;
+        margin-left: 38%;
+    }
+    #input{
+        margin: auto;
+        width: 300px;
+    }
+    #input>input{
+        background-color:turquoise;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 20px 5px 6px ;
+
+    }
+    #input>button{
+        background-color: teal;
+        border: none;
+        border-radius: 4px;
+        padding: 5px 10px 5px 10px ;
+    }
+    #wrong_city>h1{
+        margin-top: -63px;
+        margin-left: 20px;
+    }

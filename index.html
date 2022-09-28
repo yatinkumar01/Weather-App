@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Weather.css">
+</head>
+<body>
+    <div id="input">
+        <input type="text" placeholder="Enter city name" id='city_name'/>
+        <button onclick="myCity()">Search</button>
+    </div>
+    <h1>Weather Details</h1>
+    <div id="wrong_city"></div>
+    <div id="weather_page">
+        <div id="temp_degree"></div>
+        <div id="video_tag">
+            <video controls loop autoplay muted  playsinline style="pointer-events: none;" id="video">
+            <source src="https://s3.amazonaws.com/ui8-images/uploads/video/product-page-3_1617135395095.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        </video>
+        <div id="six_days"></div>
+    </div>
+    <div id="map_tag">
+       <div id="google_map">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe
+                 width="300" 
+                 height="300"
+                 id="gmap_canvas"
+                 frameborder="0"
+                 scrolling="no" 
+                 marginheight="0"
+                 marginwidth="0"
+               ></iframe>
+              </div>
+          </div>
+       </div>
+       <div id="all_details">
+       </div>
+     </div>
+    </div>
+</body>
+</html>
+<script src="Weather.js"></script>
