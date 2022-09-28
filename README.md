@@ -4,3 +4,4 @@
 <h4>
   The weather app also provides atmospheric pressure, weather conditions, visibility distance, relative humidity, precipitation in different unites, dew point, wind speed and direction, in addition to ten days in future and hourly weather forecast.
   </h4>
+<a href="https://ibb.co/g6b94Jj"><img src="https://i.ibb.co/GFfpHRx/Screenshot-1675.png" alt="Screenshot-1675" border="0"></a><br /><a target='_blank' href='https://statewideinventory.org/subaru-0-60-times'>2012 subaru legacy 2.5 gt 0 60</a><br />
